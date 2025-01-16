@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Request Food</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="logo">KinoKOMBAT</div>
+            <nav class="nav">
+                <a href="#donate">Donate Food</a>
+                <a href="#request">Request Food</a>
+                <a href="#about">About Us</a>
+                <a href="#contact">Contact</a>
+                <a href="#signup" class="button">Sign Up</a>
+                <a href="#signin" class="button">Sign In</a>
+            </nav>
+        </div>
+    </header>
+    <section id="request" class="content-section">
+        <h2>Request Food</h2>
+        <p>If you are in need of food, fill in the details below and we'll connect you with donors.</p>
+        <form>
+            <label for="food-need">Food Needed:</label>
+            <input type="text" id="food-need" name="food-need" required>
+            <label for="quantity-request">Quantity Needed:</label>
+            <input type="number" id="quantity-request" name="quantity-request" required>
+            <label for="location">Location:</label>
+            <input type="text" id="location" name="location" required>
+            <button type="submit">Request Now</button>
+        </form>
+    </section>
+</body>
+</html>
